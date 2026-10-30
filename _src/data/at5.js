@@ -121,7 +121,7 @@ module.exports = {
           ] },
         ] },
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["pasar", "ตลาด"], ["penjual", "ผู้ขาย"], ["pembeli", "ผู้ซื้อ"], ["harga", "ราคา"], ["murah", "ถูก"], ["mahal", "แพง"], ["membayar", "จ่ายเงิน"], ["wang", "เงิน"], ["sesikat pisang", "กล้วยหนึ่งหวี"]] },
+          { type: "vocab", rows: [["pasar", "ڤاسر", "ตลาด"], ["penjual", "ڤنجوال", "ผู้ขาย"], ["pembeli", "ڤمبلي", "ผู้ซื้อ"], ["harga", "هرݢ", "ราคา"], ["murah", "موره", "ถูก"], ["mahal", "ماهل", "แพง"], ["membayar", "ممباير", "จ่ายเงิน"], ["wang", "واڠ", "เงิน"], ["sesikat pisang", "سسيکت ڤيسڠ", "กล้วยหนึ่งหวี"]] },
         ] },
       ],
       latihan: [
@@ -138,7 +138,7 @@ module.exports = {
       objectives: ["Membaca dan menulis nama kenderaan||อ่านและเขียนชื่อยานพาหนะได้", "Menyatakan cara pergi ke sesuatu tempat dengan ayat naik ...||บอกวิธีเดินทางด้วยประโยค naik ... ได้"],
       sections: [
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["basikal", "จักรยาน"], ["motosikal", "รถจักรยานยนต์"], ["kereta", "รถยนต์"], ["bas", "รถโดยสาร"], ["kereta api", "รถไฟ"], ["kapal terbang", "เครื่องบิน"], ["bot", "เรือ"], ["lapangan terbang", "สนามบิน"], ["stesen", "สถานี"]] },
+          { type: "vocab", rows: [["basikal", "باسيکل", "จักรยาน"], ["motosikal", "موتوسيکل", "รถจักรยานยนต์"], ["kereta", "کريتا", "รถยนต์"], ["bas", "بس", "รถโดยสาร"], ["kereta api", "کريتا اڤي", "รถไฟ"], ["kapal terbang", "کاڤل تربڠ", "เครื่องบิน"], ["bot", "بوت", "เรือ"], ["lapangan terbang", "لاڤڠن تربڠ", "สนามบิน"], ["stesen", "ستيسين", "สถานี"]] },
           { type: "pattern", lines: ["Saya pergi ke sekolah **dengan** basikal.", "Kami **naik** kereta api ke Hat Yai.", "Jemaah haji **menaiki** kapal terbang ke Makkah."] },
         ] },
         { title: "Mari membaca  มาอ่านกันเถอะ", blocks: [
@@ -169,7 +169,7 @@ module.exports = {
           ] },
         ] },
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["melancong", "ท่องเที่ยว"], ["bercuti", "พักผ่อน หยุดพัก"], ["pantai", "ชายหาด"], ["pulau", "เกาะ"], ["air terjun", "น้ำตก"], ["bukit", "เนินเขา"], ["muzium", "พิพิธภัณฑ์"], ["mengambil gambar", "ถ่ายรูป"]] },
+          { type: "vocab", rows: [["melancong", "ملنچوڠ", "ท่องเที่ยว"], ["bercuti", "برچوتي", "พักผ่อน หยุดพัก"], ["pantai", "ڤنتاي", "ชายหาด"], ["pulau", "ڤولاو", "เกาะ"], ["air terjun", "اير ترجون", "น้ำตก"], ["bukit", "بوکيت", "เนินเขา"], ["muzium", "موزيوم", "พิพิธภัณฑ์"], ["mengambil gambar", "مڠمبيل ݢمبر", "ถ่ายรูป"]] },
         ] },
       ],
       latihan: [
@@ -186,7 +186,7 @@ module.exports = {
       objectives: ["Membaca dan menulis perkataan tentang alam sekitar||อ่านและเขียนคำศัพท์เกี่ยวกับสิ่งแวดล้อมได้", "Menyatakan cara menjaga alam sekitar||บอกวิธีรักษาสิ่งแวดล้อมได้"],
       sections: [
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["alam sekitar", "สิ่งแวดล้อม"], ["pokok", "ต้นไม้"], ["hutan", "ป่า"], ["sungai", "แม่น้ำ"], ["udara", "อากาศ"], ["sampah", "ขยะ"], ["tong sampah", "ถังขยะ"], ["menanam", "ปลูก"], ["mencemarkan", "ทำให้สกปรก ทำให้เป็นมลพิษ"], ["kitar semula", "รีไซเคิล"]] },
+          { type: "vocab", rows: [["alam sekitar", "عالم سکيتر", "สิ่งแวดล้อม"], ["pokok", "ڤوکوق", "ต้นไม้"], ["hutan", "هوتن", "ป่า"], ["sungai", "سوڠاي", "แม่น้ำ"], ["udara", "اودارا", "อากาศ"], ["sampah", "سمڤه", "ขยะ"], ["tong sampah", "توڠ سمڤه", "ถังขยะ"], ["menanam", "منانم", "ปลูก"], ["mencemarkan", "منچمرکن", "ทำให้สกปรก ทำให้เป็นมลพิษ"], ["kitar semula", "کيتر سمولا", "รีไซเคิล"]] },
         ] },
         { title: "Mari membaca  มาอ่านกันเถอะ", blocks: [
           { type: "reading", title: "Jagalah Alam Sekitar", paras: [
@@ -215,7 +215,7 @@ module.exports = {
           ] },
         ] },
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["halal", "ฮะลาล"], ["haram", "ฮะรอม"], ["arak", "เหล้า สุรา"], ["bangkai", "ซากสัตว์ที่ตายเอง"], ["disembelih", "ถูกเชือด"], ["syarak", "บทบัญญัติศาสนา"], ["logo halal", "เครื่องหมายฮะลาล"], ["memabukkan", "ทำให้มึนเมา"]] },
+          { type: "vocab", rows: [["halal", "حلال", "ฮะลาล"], ["haram", "حرام", "ฮะรอม"], ["arak", "ارق", "เหล้า สุรา"], ["bangkai", "بڠکاي", "ซากสัตว์ที่ตายเอง"], ["disembelih", "دسمبليه", "ถูกเชือด"], ["syarak", "شرع", "บทบัญญัติศาสนา"], ["logo halal", "لوݢو حلال", "เครื่องหมายฮะลาล"], ["memabukkan", "ممابوقکن", "ทำให้มึนเมา"]] },
           { type: "pattern", lines: ["Kita **mesti** makan makanan yang halal.", "Kita **tidak boleh** minum arak kerana arak memabukkan."] },
         ] },
       ],
@@ -233,7 +233,7 @@ module.exports = {
       objectives: ["Membaca dan menulis nama makanan tradisional||อ่านและเขียนชื่ออาหารพื้นเมืองได้", "Menerangkan makanan tradisional dengan kata sifat||บรรยายอาหารพื้นเมืองด้วยคำวิเศษณ์ได้"],
       sections: [
         { title: "Kosa kata  คำศัพท์", blocks: [
-          { type: "vocab", noJawi: true, rows: [["nasi kerabu", "ข้าวยำ (นาซิกาเราะบู)"], ["nasi dagang", "ข้าวดากัง"], ["laksa", "ขนมจีนน้ำแกง (ลักซา)"], ["ketupat", "ข้าวต้มห่อใบมะพร้าว"], ["rendang", "แกงเรินดัง"], ["lemang", "ข้าวหลาม"], ["dodol", "ขนมโดดล (กาละแม)"], ["kuih akok", "ขนมอาเกาะ"], ["roti canai", "โรตี"]] },
+          { type: "vocab", rows: [["nasi kerabu", "ناسي کرابو", "ข้าวยำ (นาซิกาเราะบู)"], ["nasi dagang", "ناسي داݢڠ", "ข้าวดากัง"], ["laksa", "لقسا", "ขนมจีนน้ำแกง (ลักซา)"], ["ketupat", "کتوڤت", "ข้าวต้มห่อใบมะพร้าว"], ["rendang", "رندڠ", "แกงเรินดัง"], ["lemang", "لمڠ", "ข้าวหลาม"], ["dodol", "دودول", "ขนมโดดล (กาละแม)"], ["kuih akok", "کوءيه اکوق", "ขนมอาเกาะ"], ["roti canai", "روتي چناي", "โรตี"]] },
         ] },
         { title: "Mari membaca  มาอ่านกันเถอะ", blocks: [
           { type: "reading", title: "Juadah Hari Raya", paras: [
