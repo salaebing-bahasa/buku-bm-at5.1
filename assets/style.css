@@ -364,6 +364,7 @@ main.turn-prev .sheet { animation: turnPrev .22s ease-in forwards; }
 td.ms .pic { vertical-align: middle; margin-right: .45rem; }
 .face.front .pic { display: block; margin: 0 auto .25rem; width: 56px; height: 56px; }
 .f-ms { display: block; }
+.jw-in { display: none; }
 .card:has(.pic) { height: 10rem; }
 @media (max-width: 520px) {
   .vocab .pic-c { width: 2.8rem; padding-left: .3rem; padding-right: .3rem; }
@@ -376,6 +377,9 @@ td.ms .pic { vertical-align: middle; margin-right: .45rem; }
   .vocab:has(.pic-c) td.ms > span { display: block; margin: 0 0 .2rem; }
   .vocab th.pic-c { font-size: .78rem; }
   .vocab th .tr { white-space: nowrap; }
+  /* มือถือ: ยาวีอยู่ใต้คำรูมีในช่องเดียวกัน แทนคอลัมน์แยก */
+  .vocab td.jw-cell, .vocab th.jw-h { display: none; }
+  .vocab .jw-in { display: block; font-weight: 400; font-size: 1.1rem; margin-top: .15rem; }
 }
 .w-pic { display: block; margin: .6rem auto 0; width: 84px; height: 84px; }
 .w-pic[hidden] { display: none; }
