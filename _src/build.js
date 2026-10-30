@@ -72,13 +72,13 @@ function renderBlock(b) {
     case "vocab": {
       const hasPic = b.rows.some((r) => imgOf(r[0]));
       const picH = hasPic ? `<th class="pic-c">${bi("Gambar", "ภาพ")}</th>` : "";
-      const head = b.noJawi ? `<th>#</th>${picH}<th>Bahasa Melayu</th><th>${bi("Maksud", "ความหมาย")}</th>` : `<th>#</th>${picH}<th>Rumi</th><th>Jawi</th><th>${bi("Maksud", "ความหมาย")}</th>`;
+      const head = b.noJawi ? `<th>#</th>${picH}<th>Bahasa Melayu</th><th>${bi("Maksud", "ความหมาย")}</th>` : `<th>#</th>${picH}<th>Rumi</th><th class="jw-h">Jawi</th><th>${bi("Maksud", "ความหมาย")}</th>`;
       const rows = b.rows.map((r, i) => {
         const [ms, a, c] = r;
         const jw = b.noJawi ? "" : `<td class="jw-cell">${md(a)}</td>`;
         const th = b.noJawi ? a : c;
         const picC = hasPic ? `<td class="pic-c">${picTag(ms, "../", 52)}</td>` : "";
-        return `<tr><td class="n">${thNum(i + 1)}</td>${picC}<td class="ms"><span>${md(ms)}</span>${speakBtn(ms)}</td>${jw}<td>${md(th)}</td></tr>`;
+        return `<tr><td class="n">${thNum(i + 1)}</td>${picC}<td class="ms"><span>${md(ms)}</span>${speakBtn(ms)}${b.noJawi ? "" : `<span class="jw-in">${md(a)}</span>`}</td>${jw}<td>${md(th)}</td></tr>`;
       }).join("");
       return `<div class="tbl"><table class="vocab"><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>`;
     }
